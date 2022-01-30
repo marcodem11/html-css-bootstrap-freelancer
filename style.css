@@ -20,39 +20,24 @@ ul li a{
     color: white;
 }
 
-#title-main{
-    min-height: 600px;
-    background-color: #0bc759;
-}
-
-.h-strtbtstrp{
+#main-container{
+    background-color: #1abc9c;
     color: white;
 }
 
-.logo{
-    width: 100px;
-    margin: 0 auto;
-    padding-top: 15px;
+#main-container .row figure{
+    height: 250px;
 }
 
-.star{
-    padding-left: 190px;
-    padding-top: 0;
+#main-container .row figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: c;
+    object-position: center;
+    overflow: hidden;
 }
 
-.star-logo{
-    color: white;
-    font-size: 18px;
-}
-
-.star-container{
-    height: 125px;
-    width: 400px;
-    border: 1px solid blue;
-    margin: 0 auto;
-    display: flex;
-}
-
-ul#bottom-star li{
-    display: inline;
+#about-container{
+    min-height: 300px;
+    background-color: #1abc9c;
 }
